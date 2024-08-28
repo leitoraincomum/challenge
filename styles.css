@@ -1,52 +1,99 @@
 /* styles.css */
-body {    font-family: Arial, sans-serif;
-    margin: 0;    padding: 0;
-    background-color: #f4f4f4;}
+body {    
+    font-family: Arial, sans-serif;
+    margin: 0;    
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 .container {
-    display: flex;    flex-direction: column;
-    align-items: center;    justify-content: center;
-    height: 100vh;    padding: 20px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    height: 100vh;    
+    padding: 20px;
 }
-.header {    width: 100%;
-    text-align: left;    padding: 10px;
+
+.header {    
+    width: 100%;
+    text-align: left;    
+    padding: 10px;
 }
-.logo {    width: 50px;
+
+.logo {    
+    width: 50px;
     height: auto;}
+
 .main {
-    display: flex;    width: 80%;
-    max-width: 1200px;    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    border-radius: 8px;
+    display: flex;    
+    width: 80%;
+    max-width: 1200px;    
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    border-radius: 8px;
     overflow: hidden;}
+
 .input-section {
-    flex: 2;    padding: 20px;
+    flex: 2;    
+    padding: 20px;
 }
-textarea {    width: 100%;
-    height: 150px;    padding: 10px;
-    border: 1px solid #ccc;    border-radius: 5px;
+
+textarea {    
+    width: 100%;
+    height: 150px;    
+    padding: 10px;
+    border: 1px solid #ccc;    
+    border-radius: 5px;
     font-size: 16px;
 }
-.buttons {    margin-top: 10px;
-    display: flex;    justify-content: space-between;
+
+.buttons {    
+    margin-top: 10px;
+    display: flex;    
+    justify-content: space-between;
 }
-button {    padding: 10px 20px;
-    font-size: 16px;    border: none;
-    border-radius: 5px;    cursor: pointer;
+
+button {    
+    padding: 10px 20px;
+    font-size: 16px;    
+    border: none;
+    border-radius: 5px;    
+    cursor: pointer;
 }
-#encryptBtn {    background-color: #4CAF50;
-    color: white;}
+
+#encryptBtn {    
+    background-color: #4CAF50;
+    color: white;
+}
+
 #decryptBtn {
-    background-color: #008CBA;    color: white;
+    background-color: #008CBA;    
+    color: white;
 }
-.output-section {    flex: 1;
-    background-color: #f8f9fa;    padding: 20px;
-    display: flex;    flex-direction: column;
-    align-items: center;    justify-content: center;
-    text-align: center;}
+
+.output-section {    
+    flex: 1;
+    background-color: #f8f9fa;    
+    padding: 20px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+}
+
 .output-message p {
-    font-size: 18px;    color: #ff6f61;
-    margin-bottom: 5px;}
-.output-message span {
-    font-size: 14px;    color: #666;
+    font-size: 18px;    
+    color: #ff6f61;
+    margin-bottom: 5px;
 }
-.illustration {    width: 100px;
+
+.output-message span {
+    font-size: 14px;    
+    color: #666;
+}
+
+.illustration {    
+    width: 100px;
     margin-top: 20px;}
